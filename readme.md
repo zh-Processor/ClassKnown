@@ -43,3 +43,18 @@ In the **txt** file, such as:
 We get the parameter type of the function, but the actual number of parameters is not accurate and needs to be analyzed according to the offset **IDA**.
 
 We can also get **log** after modifying **run.py**.
+
+## Extra
+
+It can be used as a **ida plugin**.
+
+```
+File -> Script File -> classinformer.py
+```
+
+Maybe you need remove this from **classinformer**:
+
+```
+Line 16: idc.Exit(0)
+```
+
