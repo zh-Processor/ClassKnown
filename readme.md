@@ -4,7 +4,7 @@
 
 The Script based on [SusanRTTI](https://github.com/nccgroup/SusanRTTI) , implements a Class that can analyze some programs in batches, and annotates its offset and parameter types to generate a txt file.
 
-The initial development goal was to sort out the callable functions of the **np*.dll** file.
+The initial development goal was to sort out the callable functions of the **np\*.dll** file.
 
 Currently **Windows 32-bit IDA** is used by default. If you need to use **64-bit IDA**, you need to modify the related fields in **run.py** and **msvc.py**.
 
