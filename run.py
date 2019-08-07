@@ -11,5 +11,5 @@ for root, dirs, files in os.walk(filePath):
     for file1 in files:
         file_path = os.path.join(root, file1)
         cmd = ida32wFilePath + " -c -A -S" + pluginPath + " " + file_path
-#        cmd = ida32wFilePath + "-L" + "logPath" + " -c -A -S" + pluginPath + " " + file_path
+#        cmd = ida32wFilePath + " -L" + "logPath" + " -c -A -S" + pluginPath + " " + file_path
         os.system(cmd)
